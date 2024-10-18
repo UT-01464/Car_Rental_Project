@@ -1,0 +1,1117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+}
+
+:root
+    {
+        --bg-color:#080808;
+        --second-bg-color:#101010;
+        --text-color:white;
+        --main-color:#ea580c;
+    }
+   
+
+html
+{
+    font-size: 60%;
+    overflow-x: hidden;
+    background-color: black;
+    color: var(--text-color);
+
+}
+
+body
+{
+    background-color:black ;
+    color: white;
+}
+
+
+
+section {
+    min-height: 60vh;
+    padding: 10rem 9% 2rem;
+    background-color:black ;
+    
+}
+
+
+.header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2rem 9%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter:blur(10px) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+
+}
+
+#menu-icon
+{
+    font-size:3.5rem ;
+    color: #ea580c;
+    display: none;
+}
+
+.logo
+{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+   
+
+}
+
+.logo:hover
+{
+    transform: scale(1.1);
+}
+
+span
+{
+    background: linear-gradient(270deg,#DF8908 10%,#FF1D15 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.navbar a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover
+{
+    color: orange;
+    border-bottom:3px solid var(--main-color);
+}
+
+.Sign-button
+{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(270deg,#DF8908 10%,#FF1D15 100%);
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+    color: white;
+    border: none;
+    text-wrap: nowrap;
+}
+
+.Sign-button:hover
+{
+    transform: scale(1.05s);
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    width: 40vw;
+    border-radius: 20%;
+
+
+}
+
+.home-img img:hover {
+
+    filter: drop-shadow(5px 5px 5px var(--main-color));
+
+}
+
+
+
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+
+}
+
+#Signup {
+    margin-left: 3rem;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+
+
+/* ----------------About Us----------------------- */
+
+.about {
+
+    margin: 20px 100px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.about h2 {
+
+    font-family: "OpenSans-Bold";
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.about h2:after {
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 3px;
+    background-color: #ef5e41;
+    margin-top: 10px;
+    margin: 10px auto 0 auto;
+
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text {
+    font-family: "OpenSans-Regular";
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "OpenSans-Bold";
+    font-size: 14px;
+    color: #ef5e41;
+    text-decoration: none;
+}
+
+
+/* ------------------------Book Now----------------------- */
+
+.booking {
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 8px;
+   background-color:rgb(27, 24, 24);
+}
+
+.booking h2 {
+    font-family: "OpenSans-Bold";
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.booking h2:after {
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 3px;
+    background-color: #ef5e41;
+    margin-top: 10px;
+    margin: 10px auto 0 auto;
+}
+
+.booking-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.row {
+    display: contents;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form-group select,
+.form-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.book-now-btn {
+    grid-column: span 3;
+    padding: 1%;
+    font-family: "OpenSans-Bold";
+    font-size: 16px;
+    color: white;
+    background-color: #ef5e41;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ----------------Services----------------------- */
+.services,
+.premium-services {
+    min-height: 70vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.849);
+
+}
+
+.services h2,
+.premium-services h2 {
+    color: #ffffff;
+    font-family: "OpenSans-Bold";
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.services h2:after,
+.premium-services h2:after {
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 3px;
+    background-color: #ef5e41;
+    margin-top: 10px;
+    margin: 10px auto 0 auto;
+}
+
+.services p,
+.premium-services p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "OpenSans-Regular";
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem 4rem;
+    gap: 2rem;
+}
+
+.service-card {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.849);
+    text-align: center;
+    width: 40px;
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    border-radius: 3rem;
+    border: 1rem solid var(--bg-color);
+    transition: .5s ease;
+    padding: 2rem 3rem 4rem;
+
+}
+
+.service-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+    border: 0.1rem solid var(--text-color);
+    border-radius: 3rem;
+    filter: invert(100%) sepia(4%) saturate(24%) hue-rotate(204deg) brightness(106%) contrast(100%);
+}
+
+.service-card h3 {
+    font-family: "OpenSans-Bold";
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-family: "OpenSans-Regular";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+
+.service-card:hover{
+ border-color: var(--main-color);
+     transform: scale(1.02);
+}
+
+/* --------------------------------------------Car-------------------------------------------- */
+/* Main section styling */
+.cars {
+    padding: 50px 20px; /* Padding for the section */
+    background-color: #000; /* Black background for the section */
+}
+
+/* Title styling */
+.carh2 {
+    color: #ffffff; /* White color for the title */
+    font-family: "OpenSans-Bold"; /* Font for the title */
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+/* Styling for the car list */
+.car-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Space between the cards */
+    justify-content: center; /* Center cards in the container */
+}
+
+/* Individual car card styling */
+.car-card {
+    width: 300px; /* Fixed width for each card */
+    height: 400px; /* Fixed height for each card */
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensures no overflow */
+    background-color: #fff; /* White background for the card */
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5); /* White shadow for the card */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+/* Hover effect for the car card */
+.car-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.7); /* Darker white shadow on hover */
+}
+
+/* Image styling */
+.car-card img {
+    width: 100%; /* Image fills the card */
+    height: 250px; /* Fixed height for images */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Styling for car details */
+.car-details {
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center align text */
+    background-color: #f8f8f8; /* Light background for details */
+    flex-grow: 1; /* Allow details to take available space */
+}
+
+/* Title inside car details */
+.car-details h2 {
+    font-family: "OpenSans-Bold"; /* Bold font for car brand */
+    font-size: 20px; /* Font size for car brand */
+    color: #333; /* Dark color for text */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+/* Paragraph styling for details */
+.car-details p {
+    margin: 5px 0; /* Margin for spacing */
+    color: #666; /* Detail text color */
+    font-size: 14px; /* Font size for details */
+}
+
+/* Rent button styling */
+.rent-now {
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #41b6ac; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Hover effect for rent button */
+.rent-now:hover {
+    background-color: #33a192; /* Darker shade on hover */
+}
+
+
+/* ---------------------------FeedBack--------------------------------------------- */
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  background-color: #080808;
+  text-align: center;
+}
+
+
+
+.section__container h1 {
+    color: #ffffff;
+    font-family: "OpenSans-Bold";
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section__container h1:after {
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 3px;
+    background-color: #ef5e41;
+    margin-top: 10px;
+    margin: 10px auto 0 auto;
+}
+
+
+.section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.section__card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 5rem 2rem 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.section__card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color:rgb(204, 72, 23);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.section__card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.section__card h4 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:black;
+  transition: 0.3s;
+}
+
+.section__card p {
+  margin-bottom: 2rem;
+  color: var(--bg-color);
+  transition: 0.3s;
+}
+
+.section__card img {
+  margin-bottom: 1rem;
+  max-width: 100px;
+  border-radius: 100%;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+.section__card h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(212, 112, 18);
+  transition: 0.3s;
+}
+
+.section__card h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.section__card:hover::before {
+  width: 400%;
+}
+
+.section__card:hover :is(h4, h5) {
+  color:white;
+}
+
+.section__card:hover :is(p, h6) {
+  color:white;
+}
+
+.section__card:hover img {
+  border-color: white;
+}
+
+
+
+
+
+/* --------------------------------------Contact us--------------------------------------- */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+
+
+
+.Contact-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.Contact-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("images/meeter.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.Contact-contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.Contact-left{
+	background: url("images/meeter.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.Contact-right{
+	padding: 25px 40px;
+}
+
+.Contact-right h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.Contact-right h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color:var(--main-color);
+}
+
+.Contact-field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.Contact-field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.Contact-btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: var(--main-color);
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+    border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.Contact-btn:hover{
+    background-color: #2727ae;
+}
+
+.car {
+    background-color: var(--second-bg-color);
+}
+
+.car h2 {
+    margin-bottom: 4rem;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.car-list .rent-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.car-list img {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.rent-box:hover img {
+    transform: scale(1.1);
+}
+
+.rent-box .rent-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+
+}
+
+.rent-box:hover .rent-layer {
+    transform: translateY(0);
+
+}
+
+.rent-layer h4 {
+    font-size: 3rem;
+}
+
+.rent-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.rent-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.rent-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+
+
+
+
+
+
+.Contact-field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.Contact-contact-box{
+		grid-template-columns: 1fr;
+	}
+	.Contact-left{
+		height: 200px;
+	}
+}
+
+
+
+
+/* ------------------------Footer-------------------------------------- */
+
+.footerbar-section__container {
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 5%;
+    box-shadow: white ;
+    
+    
+  }
+  
+  .footerbar-footer__bar h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .footerbar-footer__bar span {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--main-color);
+  }
+  
+  .footerbar-footer__bar p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .footerbar-footer__socials {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .footerbar-footer__socials li {
+    margin: 0 10px;
+  }
+  
+  .footerbar-footer__socials li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footerbar-footer__socials li a:hover {
+    color: #007bff;
+  }
+
+  
+/*--------------------------------------------------------------- user model */
+  
+  
+.hidden {
+    display: none;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.634); /* Black with opacity */
+    color: var(--second-bg-color); /* Text color */
+}
+
+.modal-content {
+    background-color: rgb(0, 0, 0); /* Modal content background */
+    margin: 15% auto; /* Center the modal vertically and horizontally */
+    padding: 20px; /* Space inside the modal */
+    border: 1px solid #000; /* Border around the modal */
+    width: 80%; /* Width of the modal content */
+    max-width: 800px; /* Maximum width of the modal content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    color: white;
+    font-size: medium;
+    
+}
+
+
+input {
+    border: 1px solid #000000;
+    height: 2.5rem;
+
+}
+
+.close {
+    color: var(--main-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.savebutton {
+
+    background-color: var(--second-bg-color);
+    border: 1px solid #000000;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0ef;
+    text-align: center;
+   
+}
+
+.savebutton:hover {
+    background-color: var(--main-color);
+    color: black;
+
+}
+
+.modal-content {
+    width: 50%; /* Width of the modal content */
+    background-color: #00000094; /* Semi-transparent black background */
+    padding: 20px; /* Add some padding for content spacing */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 15px rgba(160, 153, 153, 0.3); /* Add box shadow */
+}
+
+
+.editprofile {
+    display: flexbox;
+    padding: 30px;
+    padding-top:2%;
+
+}
+
+.editprofile label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size:medium;
+    color: white
+}
+
+.editprofile input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+.editprofile button {
+
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+
+}
+
+/* Container for the navigation bar */
+.navbar {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: end; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the navbar */
+    /* background-color: var(--second-bg-color); Background color of navbar */
+}
+
+/* Initial state of the search box */
+.searchBar[type=text] {
+    border-radius: 50%; /* Make it circular */
+    width: 30px; /* Initial width */
+    height: 30px; /* Height */
+    border: 1px solid var(--main-color); /* Border */
+    background-color: var(--second-bg-color); /* Background color */
+    position: relative; /* Adjust position for centering */
+    transition: width 0.4s ease-out; /* Smooth width transition */
+    z-index: 1000; /* Layering order */
+    text-align: center;
+    color: white;
+}
+
+/* Animation when the search box gains focus */
+.searchBar[type=text]:focus {
+    width: 200px; /* Expanded width when focused */
+    border-radius: 5px; /* Change to rounded rectangle */
+}
+
+/* Style for the search bar container (to center it) */
+.search-container {
+    flex-grow: 5; /* Allow it to take available space */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+
