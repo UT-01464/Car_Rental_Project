@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARENT</title>
+    <link rel="stylesheet" href="../Home.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <!------------------------------------- Header section ------------------------------------------>
+
+
+    <div class="popup"></div>
+
+
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#home" class="logo">
+            CAR<span>RENT</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+
+            <input type="text" name="Search" id="searchBar" class="searchBar" placeholder="Search cars Models here..">
+            
+            <a href="#profile" id="userInfo" class="editpro">Profile</a>
+            <a href="#renatlModal" id="rentalhistory">Rentalhistory</a>
+            <a href="#Contactus">Contact US</a>
+            <a href="#logout" id="logoutBtn">Log out</a>
+
+           
+        </nav>
+        
+        
+
+
+    </header>
+
+
+   
+    <!-- ----------------------Car------------------------------------------------------ -->
+
+    <section class="cars" id="Cars">
+        <h2 class="carh2">Our Featured Cars</h2>
+        <div class="car-list" id="car-list">
+            <!-- Car cards will be added here dynamically -->
+        </div>
+    </section>
+
+
+
+
+
+
+        <!-- The Modal -->
+        <div id="profileModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 style="text-align: center;">Edit Profile</h2>
+                <form id="editProfileForm" class="editprofile">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br>
+    
+                    <label for="nic">Nic:</label>
+                    <input type="number" id="nic" name="nic" required><br>
+    
+                    <label for="number">Phone Number:</label>
+                    <input type="text" id="number" name="phone" required><br>
+    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br>
+    
+                    <button type="submit" class="savebutton">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Rentals Modal -->
+        <div id="rentalsModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeRentalsModal">&times;</span>
+                <h2 style="text-align: center;">My Rentals</h2>
+                <table id="myRentalsTable" class="rentals-table">
+                    <thead>
+                        <tr>
+                            <th>Registration Number</th>
+                            <th>Brand</th>
+                            <th>Model</th>
+                            <th>Rental-Amount</th>
+                            <th>Rent Date</th>
+                            <th>status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myRentalsTableBody">
+                        <!-- Rental rows will be inserted here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+
+    <!-- -------------------------------------------Contact Us--------------------------------------------------------- -->
+
+    <div class="Contact-container" id="contactUs">
+        <div class="Contact-contact-box">
+            <div class="Contact-left"></div>
+            <div class="Contact-right">
+                <h2 style="color: black;">Contact Us</h2>
+                <input type="text" class="Contact-field" placeholder="Your Name">
+                <input type="text" class="Contact-field" placeholder="Your Email">
+                <input type="text" class="Contact-field" placeholder="Phone">
+                <textarea placeholder="Message" class="Contact-field"></textarea>
+                <button class="Contact-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------------------------------------------Footer---------------------------------------------------------------- -->
+
+    <div class="footerbar-section__container footerbar-footer__bar">
+        <h4>CAR<span>RENT</span> </h4>
+        <p>Copyright © 2024 CARRENT  . All rights reserved.</p>
+        <ul class="footerbar-footer__socials">
+            <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <script src="User.js"></script>
+</body>
+
+</html>

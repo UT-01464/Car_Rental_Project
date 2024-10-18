@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARENT</title>
+    <link rel="stylesheet" href="Home.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <!------------------------------------- Header section ------------------------------------------>
+
+    <div class="popup"></div>
+
+
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#home" class="logo">
+            CAR<span>RENT</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Cars">Cars</a>
+            <a href="#contactUs">Contact US</a>
+        </nav>
+
+        <button class="Sign-button"><a href="Login/login.html">Rent Now</a></button>
+
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hello, Customers</h3>
+            <h1>Enjoy your life with
+                our <span>comfortable cars</span></h1>
+            <p>Carent, is ready to serve the best
+                experience in car rental.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-telegram'></i></a>
+            </div>
+            <a href="Login/login.html" class="btn" id="Signin">Sign In</a>
+            <a href="Login/login.html" class="btn" id="Signup">Sign Up</a>
+        </div>
+        <div class="home-img">
+            <div class="right">
+                <div class="ani_image">
+                    <img src="images/blk.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------About Us------------------------- -->
+
+    <section class="about" id="About">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="images/aboutus.jpg" alt="About Us Image">
+            <div class="about-text">
+                <p id="about-paragraph">
+                    We are a specialized team committed to providing reliable car rental services. One of the advantages
+                    of renting a car from us is offering competitive and transparent prices. By providing services such
+                    as comprehensive insurance ...
+                    <span id="extra-text" style="display: none;">
+                        and 24/7 customer support, we ensure that you have a seamless and enjoyable rental experience.
+                        Our fleet consists of a variety of vehicles to suit your needs, whether you're traveling for
+                        business or leisure. Join us today and discover the difference!
+                    </span>
+                </p>
+                <a href="javascript:void(0);" class="read-more" id="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ------------------------Booking------------------------------------ -->
+
+   
+
+    <!-- ------------------------Services------------------------------------ -->
+    <section class="services" id="Services">
+        <h2>Services</h2>
+        <p>Carent is a reputable car rental company that offers a wide range of useful services for every taste.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/bride.png" alt="Wedding Ceremony">
+                <h3>Wedding Ceremony</h3>
+                <p>We support you all hours of the day.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/location-pin.png" alt="City Transfer">
+                <h3>City Transfer</h3>
+                <p>We support you all hours of the day.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/airport.png" alt="Airport Transfer">
+                <h3>Airport Transfer</h3>
+                <p>All cars have a valid insurance.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/cityscape.png" alt="Whole City Tour">
+                <h3>Whole City Tour</h3>
+                <p>All cars are equipped with GPS navigation system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------Premium Services------------------------------------ -->
+    <section class="premium-services">
+        <h2>Our Premium Services</h2>
+        <p>Carent is a reputable car rental company that offers a wide range of useful services for every taste.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/24-hours.png" alt="24 Hours Support">
+                <h3>24 Hours Support</h3>
+                <p>We support you all hours of the day.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/quality-assurance.png" alt="Qualified Assurance">
+                <h3>Qualified Assurance</h3>
+                <p>All cars have a valid insurance.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/gps.png" alt="GPS on Cars">
+                <h3>GPS on Cars</h3>
+                <p>All cars are equipped with GPS navigation system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------Car------------------------------------------------------ -->
+
+    <section class="cars" id="Cars">
+        <h2 class="carh2">Our Featured Cars</h2>
+        <div class="car-list" id="car-list">
+            <!-- Car cards will be added here dynamically -->
+        </div>
+    </section>
+
+
+
+
+
+    <!-- --------------------Feedback---------------------------------------------------- -->
+    <section class="section__container">
+
+        <h1>What our customers say</h1>
+        <div class="section__grid">
+            <div class="section__card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <h4>Love the simplicity</h4>
+                <p>
+                    They understood our brand and created a stunning website design.
+                    Professional, responsive, and on-time delivery. Highly recommended!
+                </p>
+                <img src="images/gr1 (1).jpg" alt="user" />
+                <h5>Allan Collins</h5>
+                <h6>Managing Director</h6>
+            </div>
+            <div class="section__card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <h4>Excellent Designs</h4>
+                <p>
+                    Efficient, reliable, and results-oriented. Visually appealing
+                    website, improved online visibility. Highly recommended!
+                </p>
+                <img src="images/gr1 (2).jpg" alt="user" />
+                <h5>Tanya Grant</h5>
+                <h6>Ceo & Founder</h6>
+            </div>
+            <div class="section__card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <h4>Efficient and Reliable</h4>
+                <p>
+                    Best decision we made. Stunning website, exceptional support. Always
+                    available and prompt issue resolution. Hassle-free experience!
+                </p>
+                <img src="images/gr1 (3).jpg" alt="user" />
+                <h5>Clay Washington</h5>
+                <h6>Fashion Designer</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------Contact Us--------------------------------------------------------- -->
+
+    <div class="Contact-container" id="contactUs">
+        <div class="Contact-contact-box">
+            <div class="Contact-left"></div>
+            <div class="Contact-right">
+                <h2 style="color: black;">Contact Us</h2>
+                <input type="text" class="Contact-field" placeholder="Your Name">
+                <input type="text" class="Contact-field" placeholder="Your Email">
+                <input type="text" class="Contact-field" placeholder="Phone">
+                <textarea placeholder="Message" class="Contact-field"></textarea>
+                <button class="Contact-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------------------------------------------Footer---------------------------------------------------------------- -->
+
+    <div class="footerbar-section__container footerbar-footer__bar">
+        <h4>CAR<span>RENT</span> </h4>
+        <p>Copyright © 2024 CARRENT  . All rights reserved.</p>
+        <ul class="footerbar-footer__socials">
+            <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <script src="Home.js"></script>
+</body>
+
+</html>
