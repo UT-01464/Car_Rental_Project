@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/f515e57d88.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="manager.css">
+</head>
+
+<body>
+    <div class="dash">
+        <div class="manager" id="manager">
+            <div class="sidebar">
+                <div class="heading-manager">
+                    <h2>Car Rental Services</h2>
+                </div>
+                <ul>
+                    <li><a href="#" onclick="dashboardshow()"><i
+                                class="fa-solid fa-house"></i><span>Dashboard</span></a></li>
+                    <li><a href="#" onclick="bookingHistoryShow()"><i class="fa-solid fa-list"></i><span>Booking
+                                History</span></a></li>
+                    <li><a href="#" onclick="customersShow()"><i
+                                class="fa-solid fa-users"></i><span>Customers</span></a></li>
+                    <li><a href="#" onclick="overdueShow()"><i class="fa-solid fa-car"></i><span>Overdue</span></a></li>
+                    <li><a href="#" onclick="returnShow()"><i
+                                class="fa-solid fa-cart-shopping"></i><span>Return</span></a></li>
+                </ul>
+                <div class="manager-logout">
+                    <ul>
+                        <li><a href="Login.html"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------------- Dashboard ------------------------------------------------------------------>
+
+
+
+        <section class="dashboard-container" id="dashboardcontainer" style="display: none;">
+            <h1>Dashboard</h1>
+            <button id="openModalBtn">Add New Car</button>
+            <!-- <button id="exploreCarsBtn">Explore Cars</button> -->
+
+            <table id="deviceTable">
+                <thead>
+                    <tr>
+                        <th>Car Reg No</th>
+                        <th>Model Name</th>
+                        <th>Rental-Date</th>
+                        <th>Availability</th>
+                        <th>Image</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- new cars added here -->
+                </tbody>
+            </table>
+
+    <!------------------------------------------------------------- Add car model window -------------------------->
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="closeBtn">&times;</span>
+                    <form id="carForm">
+                        <div class="form-group">
+                            <label for="brand">Brand</label>
+                            <select id="brand" required></select>
+                            <button type="button" id="manageBrandsBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="modelName">Model Name</label>
+                            <select id="modelName" required></select>
+                            <button type="button" id="manageModelBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <select id="year" required></select>
+                            <button type="button" id="manageYearBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="transmission">Transmission</label>
+                            <select id="transmission" required></select>
+                            <button type="button" id="manageTransmissionBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="fuel">Fuel</label>
+                            <select id="fuel" required></select>
+                            <button type="button" id="manageFuelBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="noOfPeople">No of People</label>
+                            <select id="noOfPeople" required></select>
+                            <button type="button" id="managePeopleBtn">Manage</button>
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Price/hr</label>
+                            <input type="text" id="price" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="carRegNo">Car Reg No</label>
+                            <input type="text" id="carRegNo" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="availability">Availability:</label>
+                            <select id="availability" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Car Image</label>
+                            <input type="file" id="carImage" name="carImage" accept="image/*">
+
+                        </div>
+                        <button type="submit" class="add-car">Add Car</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div id="manageModal" class="modal">
+                <div class="modal-content">
+                    <span class="closeManageBtn">&times;</span>
+                    <h2 id="manageTitle">Manage Options</h2>
+                    <ul id="optionList"></ul>
+                    <input type="text" id="newOption" placeholder="New option" />
+                    <button id="addOptionBtn">Add Option</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--------------------------------------------------------------- Booking -->
+
+
+        <section class="booking-container" id="bookingcontainer" style="display: none;">
+            <h2>Bookings</h2>
+            <table id="rental-table">
+                <thead>
+                    <tr>
+                        <th>Reg Number</th>
+                        <th>NIC</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Status</th> <!-- Added column -->
+                        <th>Action</th> <!-- Added column -->
+                    </tr>
+                </thead>
+                <tbody id="rental-body">
+                    <!-- Customer details will be displayed here -->
+                </tbody>
+            </table>
+
+
+            <!-- Modal Structure -->
+            <div id="bookingModal" class="modal">
+                <div class="modal-content">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Add Booking</h2>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                        <label for="nic">NIC:</label>
+                        <input type="text" id="nic" name="nic" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" name="phone" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="carRegNo">Car Reg No:</label>
+                        <input type="text" id="carRegNo" name="carRegNo" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="brand">Brand:</label>
+                        <input type="text" id="brand" name="brand" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="model">Model:</label>
+                        <input type="text" id="model" name="model" required><br><br>
+                        </div>
+                        <div class="form-group">
+                        <label for="rentDate">Rent Date:</label>
+                        <input type="datetime-local" id="rentDate" name="rentDate" required><br><br>
+                        </div>
+                        <button type="submit" class="save-Btn">Save Booking</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="customer-container" id="customercontainer" style="display: none;">
+            <h2>Customers</h2>
+            <table id="customer-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>NIC</th>
+                        <th>License Number</th>
+                        <th>Email</th>
+                        <th>Booking History</th>
+                    </tr>
+                </thead>
+                <tbody id="customer-body">
+                    <!-- Customer details will be displayed here -->
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="overdue-container" id="overduecontainer" style="display: none;">
+            <h2>Overdue Alerts</h2>
+            <table id="overdue-table">
+                <thead>
+                    <tr>
+                        <th>NIC</th>
+                        <th>Name</th>
+                        <th>regNumber</th>
+                        <th>Bookingdate</th>
+                        <th>returndate</th>
+                        <th>overdue time</th>
+                        <th>Payment Status</th>
+                    </tr>
+                </thead>
+                <tbody id="overdue-list">
+                    <!-- Overdue alerts will be displayed here -->
+                </tbody>
+
+            </table>
+            <p id="overduelist"></p>
+
+        </section>
+
+
+        <section class="return-container" id="returncontainer" style="display: none;">
+            <h2>Return Car</h2>
+            <form id="return-car-form">
+                <div class="form-group">
+                    <label for="return-nic">Customer NIC:</label>
+                    <input type="text" id="return-nic" required>
+                </div>
+                <div class="form-group">
+                    <label for="return-registration">Car Registration Number:</label>
+                    <input type="text" id="return-registration" required>
+
+                </div>
+                <button type="button" onclick="returnCar()" class="return-Btn">Return Car</button>
+            </form>
+        </section>
+
+
+
+
+    </div>
+   <script src="DashBoard.js"></script>
+   <script src="Booking_History.js"></script>
+   <script src="Customer.js"></script>
+   <script src="Overdue.js"></script>
+   <script src="Return.js"></script>
+
+</body>
+
+</html>

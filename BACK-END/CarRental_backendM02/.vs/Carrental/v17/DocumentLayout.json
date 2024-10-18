@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\dtos\\requestdto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\dtos\\requestdto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\repositoies\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\repositoies\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\repositoies\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\repositoies\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\irepositries\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\irepositries\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\isservices\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\isservices\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\irepositries\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\irepositries\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\repositoies\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\repositoies\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|c:\\users\\tony stark\\onedrive\\desktop\\sub\\submit\\back-end\\carrental_backendm02\\carrental\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC41BD0B-3F4C-4632-819E-0D1A6C4CE859}|Carrental\\Carrental.csproj|solutionrelative:carrental\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 410,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\appsettings.json",
+              "RelativeDocumentMoniker": "Carrental\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\appsettings.json",
+              "RelativeToolTip": "Carrental\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T03:56:28.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Program.cs",
+              "RelativeDocumentMoniker": "Carrental\\Program.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Program.cs",
+              "RelativeToolTip": "Carrental\\Program.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:56:04.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IRepositries\\IManagerRepository.cs",
+              "RelativeDocumentMoniker": "Carrental\\IRepositries\\IManagerRepository.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IRepositries\\IManagerRepository.cs",
+              "RelativeToolTip": "Carrental\\IRepositries\\IManagerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:05:14.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "Carrental\\Entities\\Rental.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Entities\\Rental.cs",
+              "RelativeToolTip": "Carrental\\Entities\\Rental.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:43:33.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\ManagerRepository.cs",
+              "RelativeDocumentMoniker": "Carrental\\Repositoies\\ManagerRepository.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\ManagerRepository.cs",
+              "RelativeToolTip": "Carrental\\Repositoies\\ManagerRepository.cs",
+              "ViewState": "AQIAAKYBAAAAAAAAAAAkwL4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:38:47.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carrepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\Carrepository.cs",
+              "RelativeDocumentMoniker": "Carrental\\Repositoies\\Carrepository.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\Carrepository.cs",
+              "RelativeToolTip": "Carrental\\Repositoies\\Carrepository.cs",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAmwH4BAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:37:55.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Dtos\\RequestDTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Carrental\\Dtos\\RequestDTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Dtos\\RequestDTO\\LoginRequest.cs",
+              "RelativeToolTip": "Carrental\\Dtos\\RequestDTO\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:27:32.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Carrental\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Carrental\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:25:48.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Carrental\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Carrental\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAswJoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:24:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IsServices\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Carrental\\IsServices\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IsServices\\ICustomerService.cs",
+              "RelativeToolTip": "Carrental\\IsServices\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:24:07.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IRepositries\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Carrental\\IRepositries\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\IRepositries\\ICustomerRepository.cs",
+              "RelativeToolTip": "Carrental\\IRepositries\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:23:22.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Carrental\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Entities\\Customer.cs",
+              "RelativeToolTip": "Carrental\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:15:57.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Carrental\\Repositoies\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\Sub\\Submit\\BACK-END\\CarRental_backendM02\\Carrental\\Repositoies\\CustomerRepository.cs",
+              "RelativeToolTip": "Carrental\\Repositoies\\CustomerRepository.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAADwvzUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:13:01.343Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

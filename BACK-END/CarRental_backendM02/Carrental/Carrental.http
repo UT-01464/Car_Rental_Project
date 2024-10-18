@@ -1,0 +1,6 @@
+@Carrental_HostAddress = http://localhost:5027
+
+GET {{Carrental_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
